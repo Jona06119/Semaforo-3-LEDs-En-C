@@ -1,6 +1,6 @@
 # Semáforo con 3 LEDs en C (PIC16F877A)
 
-Proyecto de sistemas embebidos que simula el funcionamiento de un semáforo utilizando un microcontrolador PIC16F877A[cite: 5] y programado en lenguaje C.
+Proyecto de sistemas embebidos que simula el funcionamiento de un semáforo utilizando un microcontrolador PIC16F877A y programado en lenguaje C.
 
 ## Tecnologías y Herramientas
 * **Microcontrolador**: PIC16F877A
