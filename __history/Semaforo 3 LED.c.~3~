@@ -1,0 +1,26 @@
+#include<16f877a.h>
+#fuses XT, NOPROTECT, NOPUT, NOLVP, NOWDT
+#use delay(clock=4000000)
+#define LED1 PIN_C0
+#define LED2 PIN_C3
+#define LED3 PIN_C6
+
+void main(){
+
+while(TRUE){
+output_high(LED1);
+output_low(LED2);
+output_low(LED3);
+delay_ms(5000);
+
+output_low(LED1);
+output_high(LED2);
+output_low(LED3);
+delay_ms(2000);
+
+output_low(LED1);
+output_low(LED2);
+output_high(LED3);
+delay_ms(5000);
+}
+}
